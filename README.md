@@ -16,10 +16,10 @@ permet d'effectuer ce type de classification plutôt simple.
 
 * On possède un ensemble de données de départ (training set) ayant chacun un label. Ex: (0, 0) -> 'A'
 * On dispose d'un ensemble de données (data set) que l'on cherche à classer dans une des catégories.
-* Pour chaque élément du data set, on calcule "la distance" entre celui et chaque point du training set
-*	On classe les distances par ordre croissant
-*	On choisit les k premiers éléments par ordre de distances
-*	On choisit donc le label dominant parmi les k éléments, ce qui représente la catégorie de l'élément du data set
+* Pour l'élément du data set à classer, on calcule "la distance" entre celui-ci et chaque point du training set
+* On classe les distances par ordre croissant
+* On choisit les k premiers éléments par ordre de distances
+* On choisit donc le label dominant parmi les k éléments, ce qui représente la catégorie de l'élément du data set
 
 
 
