@@ -1,9 +1,9 @@
-#kNN
+# kNN
 
 L'algorithme kNN pour k-nearest neighbors ou k plus proches voisins est l'un des algorithmes les plus utilisés en Machine Learning.
 Ceci est une implémentation de cet algorithme des plus basiques en classification.
 
-##Problème
+## Problème
 On dispose d'un ensemble de points représentés dans un repère grâce à leurs coordonnées(x, y). À chaque point on associe un label précis 'A' ou 'B'.
 La figure ci-dessous illustre le sujet.
 
@@ -24,7 +24,7 @@ permet d'effectuer ce type de classification plutôt simple.
 
 
 
-##Utilisation
+## Utilisation
 
 ```
 from kNN import *
@@ -40,9 +40,9 @@ kNN(dataSet, k, point)
 ```
 
 
-##Licence
+## Licence
 [MIT License](https://opensource.org/licenses/MIT)
 
-##A propos
+## À propos
 Junior Gantin, Machine Learning Enthusiast
 @nioperas06
