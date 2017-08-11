@@ -12,7 +12,7 @@ La figure ci-dessous illustre le sujet.
 Le but est de "prédire" si un quelconque point X appartient à la catégorie 'A' ou la catégorie 'B'. kNN est un algorithme qui nous 
 permet d'effectuer ce type de classification plutôt simple.
 
-##Principe de kNN
+## Principe de kNN
 
 * On possède un ensemble de données de départ (training set) ayant chacun un label. Ex: (0, 0) -> 'A'
 * On dispose d'un ensemble de données (data set) que l'on cherche à classer dans une des catégories.
